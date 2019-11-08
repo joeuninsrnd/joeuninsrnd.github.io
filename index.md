@@ -4,23 +4,23 @@ bxr_plover(민감정보 생명주기 관리프로그램)는 최근 정부에서 
 
 ### Process
 
-Client <=> Server <=> Web <=> Administrator
+Client <=> Server <=> Web <=> Administrator<br>
 
 #Client#<br>
 Debian 10<br>
 GTK+ 3.24.10<br>
 RabbitMQ 3.7.17<br>
 
-#Server#
+#Server#<br>
 Debian 10<br>
 RabbitMQ 3.7.17<br>
 MariaDB 10.4.7<br>
 
-#Web#
+#Web#<br>
 Tomcat<br>
 Web/WAS 9.0.21<br>
 
-#Administrator#
+#Administrator#<br>
 Web Console<br>
 
 For more details see [Joeunins BXR_Plover](https://github.com/joeuninsrnd/bxr_plover).<br>
