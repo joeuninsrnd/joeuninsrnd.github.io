@@ -1,37 +1,34 @@
 ## Welcome to Joeunins GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/joeuninsrnd/joeuninsrnd.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+bxr_plover(민감정보 생명주기 관리프로그램)는 최근 정부에서 진행되는 개방형 OS 도입 및 확산 프로젝트의 한 부분으로 진행되는 연구 개발로써 개방형 OS 환경에서의 민감정보 검출 및 유출을 방지하기 위한 방향으로 진행할 것이며, RabbitMQ를 사용하여 Server와 Client 통신을 하고 MariaDB, Tomcat을 사용할 예정이다. 현재 GTK와 Glade로 개발한 UI를 통해 Server/Client 구조로 txt파일 형태의 민감정보(주민등록번호, 외국인등록번호, 운전면허번호, 여권번호) 검출이 가능하며 hwp, pdf 등과 같은 다양한 문서포맷을 검출하는 모듈을 개발중이다. 또한, 관리자 페이지도 개발 및 디자인 중이다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Process
 
-### Markdown
+Client <=> Server <=> Web <=> Administrator
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#Client#
+Debian 10
+GTK+ 3.24.10
+RabbitMQ 3.7.17
 
-```markdown
-Syntax highlighted code block
+#Server#
+Debian 10
+RabbitMQ 3.7.17
+MariaDB 10.4.7
 
-# Header 1
-## Header 2
-### Header 3
+#Web#
+Tomcat
+Web/WAS 9.0.21
 
-- Bulleted
-- List
+#Administrator#
+Web Console
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joeuninsrnd/joeuninsrnd.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+For more details see [Joeunins BXR_Plover](https://github.com/joeuninsrnd/bxr_plover).
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[SLACK](https://joeunins.slack.com)
+[BLOG](https://joeuninsrnd.tistory.com)
+[GITHUB PAGE](https://joeuninsrnd.github.io)
+[GITHUB](https://github.com/joeuninsrnd/bxr_plover/blob/master/CONTRIBUTING.md)
