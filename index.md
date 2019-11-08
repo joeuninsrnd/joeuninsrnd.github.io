@@ -6,29 +6,28 @@ bxr_plover(민감정보 생명주기 관리프로그램)는 최근 정부에서 
 
 Client <=> Server <=> Web <=> Administrator
 
-#Client#
-Debian 10
-GTK+ 3.24.10
-RabbitMQ 3.7.17
+#Client#<br>
+Debian 10<br>
+GTK+ 3.24.10<br>
+RabbitMQ 3.7.17<br>
 
 #Server#
-Debian 10
-RabbitMQ 3.7.17
-MariaDB 10.4.7
+Debian 10<br>
+RabbitMQ 3.7.17<br>
+MariaDB 10.4.7<br>
 
 #Web#
-Tomcat
-Web/WAS 9.0.21
+Tomcat<br>
+Web/WAS 9.0.21<br>
 
 #Administrator#
-Web Console
+Web Console<br>
 
-
-For more details see [Joeunins BXR_Plover](https://github.com/joeuninsrnd/bxr_plover).
+For more details see [Joeunins BXR_Plover](https://github.com/joeuninsrnd/bxr_plover).<br>
 
 ### Support or Contact
 
-[SLACK](https://joeunins.slack.com)
-[BLOG](https://joeuninsrnd.tistory.com)
-[GITHUB PAGE](https://joeuninsrnd.github.io)
-[GITHUB](https://github.com/joeuninsrnd/bxr_plover/blob/master/CONTRIBUTING.md)
+[SLACK](https://joeunins.slack.com)<br>
+[BLOG](https://joeuninsrnd.tistory.com)<br>
+[GITHUB PAGE](https://joeuninsrnd.github.io)<br>
+[GITHUB](https://github.com/joeuninsrnd/bxr_plover/blob/master/CONTRIBUTING.md)<br>
